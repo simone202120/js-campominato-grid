@@ -28,4 +28,13 @@ body{
 .quadrato{
     width: calc(100% / 10);
     height: calc(100% / 10);
+    color: rgb(194, 35, 14);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.azzurro{
+    background-color: blue;
 }
