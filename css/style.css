@@ -13,13 +13,12 @@ header{
 }
 
 body{
-    background-color: aquamarine;
+    background-color: black;
 }
 
 #contenitore{
     width: 700px;
     height: 700px;
-    border: 1px solid black;
     margin: 50px auto 50px;
     display: flex;
     flex-wrap: wrap;
@@ -27,12 +26,13 @@ body{
 
 .quadrato{
     width: calc(100% / 10);
-    height: calc(100% / 10);
-    color: rgb(194, 35, 14);
+    height:calc(100% / 10) ;
+    color: white;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid white;
 }
 
 .azzurro{

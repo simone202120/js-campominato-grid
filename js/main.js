@@ -1,15 +1,18 @@
 let contenitore=  document.getElementById('contenitore');
 let play = document.getElementById("play");
-let difficoltà = document.getElementById('difficult').value;
+let difficoltà = prompt('inserisci un livello di difficoltà da 1 a 3');
 let n;
-if(difficoltà.value == 1){
-    n=100;
-}else if( difficoltà.value == 2){
-    n==81;
-}else if( difficoltà.value == 3){
-    n==49;
-}
+
+
+
 play.addEventListener('click', function(){
+    if(difficoltà == 1){
+        n=100;
+    }else if(difficoltà== 2){
+        n=69;
+    }else if(difficoltà== 3){
+        n=49;
+    }
     creaquadrati(n);
     }
 );
