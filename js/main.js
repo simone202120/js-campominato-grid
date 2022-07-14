@@ -19,7 +19,7 @@ play.addEventListener('click', function(){
     }
     creaquadrati(n);
 
-    console.log(difficoltà, n)
+    console.log(difficolta, n)
     }
 );
 
